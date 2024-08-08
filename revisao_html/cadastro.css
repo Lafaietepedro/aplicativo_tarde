@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit';
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #010e36;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header p{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    width: 40vw;
+    height: 40vh;
+    border: 1px seagreen solid;
+    border-radius: 20px;
+    background-color: rgba(1, 14, 54, .6);
+}
+
+main h1, main h2, main h3 {
+    margin-top: 10px;
+}
+
+main h3 {
+    margin-bottom: 10px;
+}
+
+main form {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main a {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #010e36;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#btn_enviar {
+    margin-top: 10px;
+    width: 5vw;
+    height: 4vh;
+    font-size: 18px;
+    color: #fff;
+    background-color: #010e36;
+    border-radius: 10px;
+    border: none;
+}
+
+#cadastro label{
+    font-size: 20px;
+    margin-bottom: 4px;
+}
